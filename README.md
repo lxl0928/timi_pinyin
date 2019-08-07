@@ -29,4 +29,22 @@ In [7]: device_02 = pinyin.get_first_letter_string(input_str="北京费家村南
 In [8]: sorted([device_01, device_02])
 Out[8]: ['bjfjcnmsb01', 'wsfjcnmsb01']
 
+
+
+In [1]: from timi_pinyin import get_first_letters
+
+In [2]: get_first_letters("我是中国人")
+Out[2]: 'wszgr'
+
+In [3]: from timi_pinyin import lazy_pinyin
+
+In [4]: lazy_pinyin("我是中国人")
+Out[4]: ['wo', 'shi', 'zhong', 'guo', 'ren']
+
+In [5]: from timi_pinyin import pypinyin
+
+In [6]: pypinyin("我是中国人")
+Out[6]: [['wǒ'], ['shì'], ['zhōng'], ['guó'], ['rén']]
+
+
 ```

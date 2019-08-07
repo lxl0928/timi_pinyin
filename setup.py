@@ -2,12 +2,13 @@ from setuptools import setup
 
 setup(
     name="timi-pinyin",
-    version="1.0.0",
+    version="1.0.1",
     url='http://github.com/lxl0928/timi_pinyin',
     author='Timi long',
     author_email='lixiaolong@smuer.cn',
-    description='根据传入的字符串，返回该字符串的所有首字母',
-    long_description="""传入字符串: '北京演示设备1', 返回: 'bjyssb1' """,
+    description='根据传入的input_str="费家村设备01", 返回该字符串的所有字符的拼音首字目组成的字符串: "fjcsb01".',
+    long_description="""根据传入的input_str="费家村设备01", 返回该字符串的所有字符的拼音首字目组成的字符串: "fjcsb01"., 
+    文档:  http://github.com/lxl0928/timi_pinyin/README.md """,
     packages=['timi_pinyin'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
