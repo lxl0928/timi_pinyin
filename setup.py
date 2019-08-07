@@ -7,8 +7,14 @@ setup(
     author='Timi long',
     author_email='lixiaolong@smuer.cn',
     description='根据传入的input_str="费家村设备01", 返回该字符串的所有字符的拼音首字目组成的字符串: "fjcsb01".',
-    long_description="""根据传入的input_str="费家村设备01", 返回该字符串的所有字符的拼音首字目组成的字符串: "fjcsb01"., 
-    文档:  http://github.com/lxl0928/timi_pinyin/README.md """,
+    long_description="""
+    ```
+    input_str: "费家村设备01"
+    return: "fjcsb01".
+    ```
+    
+    文档:  https://github.com/lxl0928/timi_pinyin/blob/master/README.md 
+    """,
     packages=['timi_pinyin'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
