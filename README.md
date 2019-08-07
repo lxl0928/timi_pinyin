@@ -3,7 +3,7 @@
 
 # install 
 ```
-pip install timi-pinyin==1.0.1
+pip install timi-pinyin==1.1.0
 ```
 
 # examples
