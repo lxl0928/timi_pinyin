@@ -36,10 +36,13 @@ In [3]: from timi_pinyin import lazy_pinyin
 
 In [4]: lazy_pinyin("我是中国人")
 Out[4]: ['wo', 'shi', 'zhong', 'guo', 'ren']
+# -------------------------------------
 
+
+# -------------------------------------
+# 输出拼音带音阶
 In [5]: from timi_pinyin import pypinyin
 
-# 输出拼音带音阶
 In [6]: pypinyin("我是中国人")
 Out[6]: [['wǒ'], ['shì'], ['zhōng'], ['guó'], ['rén']]
 # -------------------------------------
