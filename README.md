@@ -8,7 +8,7 @@ pip install timi-pinyin==1.0.1
 
 # examples
 
-```
+```python
 In [1]: from timi_pinyin import pinyin
 
 In [2]: pinyin.get_first_letter_string(input_str="我是费家村南门设备01")
